@@ -1,0 +1,43 @@
+.imagen{
+    width: 240px;
+margin-top: 0%;
+   padding-top: 0%;
+   border-radius: 10%;
+   border: 1px solid rgba(0, 0, 0, 0.157);
+}
+.producto{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 540px;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5%;
+    margin: 5% auto ;
+   background-color: rgba(124, 132, 140, 0.502);
+   
+   
+}
+.buttonAgregar{
+    background-image: url('./Icono\ Instagram\ story\ highlights.jpg');
+    height: 40px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    border: 1px solid black;
+   
+    
+}
+.spanDesc{
+    text-align: center;
+    font-size: small;
+}
+.spanRojo{
+    color: red;
+    font-weight: bold;
+}
+.spanCant{
+    padding: 10px;
+}
